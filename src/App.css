@@ -1,0 +1,28 @@
+.App1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #c6e1bc;
+}
+
+.App2{
+  float: left;
+}
+.App3{
+  display: block;
+  color: #140e0e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.App3:hover:not(.active) {
+  background-color: #efdcdce2;
+}
+
+.App3.active {
+  color: white;
+  background-color: #9db0a9;
+}
